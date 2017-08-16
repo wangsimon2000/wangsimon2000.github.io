@@ -4,4 +4,6 @@ body {
 
 h1, h2, h3, p {
 	color: white;
+	text-decoration: italic;
+	text-transform: uppercase;
 }
