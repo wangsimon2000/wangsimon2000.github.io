@@ -21,3 +21,7 @@ hr{
 h2, h3, p {
 	text-transform: none;
 }
+
+#slogan{
+	font-size: 40px;
+}
