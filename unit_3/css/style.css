@@ -1,0 +1,9 @@
+body {
+	background-color: teal;
+}
+
+h1, h2, h3, p {
+	color: green;
+	font-style: italic;
+	text-transform: uppercase;
+}
