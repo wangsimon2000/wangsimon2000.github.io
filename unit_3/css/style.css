@@ -1,5 +1,5 @@
 body {
-	background: url("images/cup.jpg");
+	background-image: url("images/cup.jpg");
 	font-family: Helvetica;
 	background-size:cover;
 }
