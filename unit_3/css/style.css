@@ -1,5 +1,7 @@
 body {
-	background-color: teal;
+	background: src="images/Cafe-background.jpg";
+	font-family: Helvetica;
+	background-size:cover;
 }
 
 h1{
@@ -7,12 +9,12 @@ h1{
 }
 
 h1, h2, h3, p {
-	color: green;
-	font-style: italic;
+	color: white;
+	font-weight: bold;
 }
 
 hr{
-	width: 200px;	
+	width: 300px;	
 }
 
 h2, h3, p {
