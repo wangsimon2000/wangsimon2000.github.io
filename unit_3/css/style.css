@@ -1,5 +1,5 @@
 body {
-	background: src="images/Cafe-background.jpg";
+	background-image: url("images/Cafe-background");
 	font-family: Helvetica;
 	background-size:cover;
 }
