@@ -29,8 +29,10 @@ a{
 
 #slogan{
 	font-size: 40px;
+	font-style: italic;
 }
 
 .contacts{
 	text-align: left;
+	background-color: rgba(255,255,255,.3);
 }
