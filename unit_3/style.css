@@ -12,7 +12,7 @@ h1, h2, h3, p, ul{
 	color: #d32323;
 	font-weight: bold;
 	text-align: center;
-	background-color: rgba(255,255,255,.3);
+	background-color: rgba(255,255,255,.4);
 }
 
 hr{
@@ -31,10 +31,18 @@ a{
 #slogan{
 	font-size: 40px;
 	font-style: italic;
-	margin-bottom: 800px;
 }
 
 .contacts{
 	text-align: left;
-	background-color: rgba(255,255,255,.3);
+	background-color: rgba(255,255,255,.4);
+	margin-bottom: 200px;
+}
+
+#OL{
+	text-align: left;
+}
+
+ol{
+	background-color: rgba(255,255,255,.4);
 }
