@@ -14,12 +14,22 @@ h1 {
   	margin-top: 210px;
 }
 
-h2, h3, p, ul, ol{
+h2, h3, p, ol{
 	color: #d32323;
 	font-weight: bold;
 	text-align: center;
 	background-color: rgba(255,255,255,.4);
 	font-family: 'Crimson Text', serif;
+}
+
+div{
+  background-color: rgba(192,222,197,.8);
+  margin: 0 3em 0 3em;
+  padding: .2em;
+}
+
+li{
+	text-align: center;
 }
 
 hr {
@@ -39,13 +49,9 @@ a{
 	font-family: 'Maven Pro', sans-serif;
 }
 
-#where{
-	font-size: 25px;
-}
-
 #OL{
 	text-align: left;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 #wrapper{
@@ -69,7 +75,7 @@ a{
 .paragraph{
 	text-align: left;
 	color: black;
-	margin: 4em;
+	margin: 1em 3em 1em 3em;
 	line-height: 1.5em;
 }
 
