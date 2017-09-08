@@ -3,6 +3,7 @@
 body {
 	background-image: url("images/coffee-banner.jpg");
 	background-size:cover;
+	background-position: right;
 }
 
 nav{
