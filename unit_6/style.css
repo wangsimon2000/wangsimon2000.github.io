@@ -83,6 +83,17 @@ a{
 	font-size: 18px;
 }
 
+a:hover {
+	background-color: #aaaaaa;
+}
+
+.columns {
+  width: 430px;
+  padding: 10px;
+  margin: 0 10px;
+  float: left;
+}
+
 #cafe4{
 	text-decoration:  underline;
 	text-align: left;
