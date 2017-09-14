@@ -6,10 +6,31 @@ body {
 	background-position: right;
 }
 
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+
 nav{
 	background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
+    text-align: right;
+}
+
+nav a{
+  text-decoration: none;
+  color:#000000;
+  margin: 1.8em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 header{
@@ -18,32 +39,24 @@ header{
     padding: 20px;
 }
 
-section {
-    background-color:#FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-aside{
-	background-color: #FFC675;
-    border: 1px black solid;
-    padding: 20px;
-    text-align: left;
-}
-
-article {
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-    text-align: left;
-}
-
-footer {
-    background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
+#slogan{
+	font-size: 40px;
+	font-style: italic;
+	font-family: 'Maven Pro', sans-serif;
+	color: #d32323;
 	font-weight: bold;
 	text-align: center;
+}
+
+#where{
+	padding: 20px;
+	background-color:#FFE2B8;
+    border: 1px black solid;
+    line-height: 1.5;
+}
+
+a:hover {
+	background-color: #aaaaaa;
 }
 
 h1 {
@@ -51,15 +64,6 @@ h1 {
   	font-family: 'Maven Pro', sans-serif;
   	font-size: 40px;
   	color: black;
-  	background-color: rgba(255,255,255,.4);
-}
-
-h2, h4, p, ol{
-	color: #d32323;
-	font-weight: bold;
-	text-align: center;
-	background-color: rgba(255,255,255,.4);
-	font-family: 'Crimson Text', serif;
 }
 
 h3{
@@ -77,54 +81,50 @@ hr {
 	color: black;
 }
 
-a{
-	text-decoration: none;
-	color: #d32323;
-	font-size: 18px;
+section{
+	background-color: #FFE2B8;
 }
 
-a:hover {
-	background-color: #aaaaaa;
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-.columns {
-  width: 430px;
-  padding: 10px;
-  margin: 0 10px;
-  float: left;
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 2%;
+    float: left;
+    width: 30%;
+    line-height: 1.5;	
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 2%;
+    float: right;   
+    width: 60%;
+    line-height: 1.5;
 }
 
 #cafe4{
 	text-decoration:  underline;
-	text-align: left;
+	text-align: center;
+}
+
+#recent1{
+	text-align: center;
+	font-weight: bold;
+}
+
+#recent2{
+	text-align: center;
+	font-weight: bold;
 }
 
 #review{
-	text-align: left;
-}
-
-#slogan{
-	font-size: 40px;
-	font-style: italic;
-	font-family: 'Maven Pro', sans-serif;
-}
-
-#wrapper{
-	width:960px;
-	margin:0 auto;
-}
-
-#enter{
-	text-align: left;
-	background-color: rgba(0,0,0,0);
-}
-
-#login{
-	text-align: right;	
-	background-color: rgba(0,0,0,0);
-}
-
-#recent{
 	text-align: left;
 }
 
@@ -136,8 +136,15 @@ a:hover {
 
 .contacts{
 	text-align: left;
-	background-color: rgba(255,255,255,.4);
 	font-size: 18px;
 }
 
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5;
+}
 
