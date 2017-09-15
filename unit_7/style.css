@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Maven+Pro:700');
+
+body {
+	background-image: url("images/coffee-banner.jpg");
+	background-size:cover;
+	background-position: right;
+}
+
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+
+nav{
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: right;
+}
+
+nav a{
+  text-decoration: none;
+  color:#000000;
+  margin: 1.8em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+header{
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#slogan{
+	font-size: 40px;
+	font-style: italic;
+	font-family: 'Maven Pro', sans-serif;
+	color: #d32323;
+	font-weight: bold;
+	text-align: center;
+}
+
+#where{
+	padding: 20px;
+	background-color:#FFE2B8;
+    border: 1px black solid;
+    line-height: 1.5;
+}
+
+a:hover {
+	background-color: #aaaaaa;
+}
+
+h1 {
+	text-align: center;
+  	font-family: 'Maven Pro', sans-serif;
+  	font-size: 40px;
+  	color: black;
+}
+
+h3{
+	color: #d32323;
+	font-weight: bold;
+	font-family: 'Crimson Text', serif;
+}
+
+li{
+	text-align: left;
+}
+
+hr {
+	width: 300px;	
+	color: black;
+}
+
+section{
+	background-color: #FFE2B8;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 2%;
+    float: left;
+    width: 30%;
+    line-height: 1.5;	
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 2%;
+    float: right;   
+    width: 60%;
+    line-height: 1.5;
+    height: 192px;
+}
+
+#cafe4{
+	text-decoration:  underline;
+	text-align: center;
+}
+
+#recent1{
+	text-align: center;
+	font-weight: bold;
+}
+
+#recent2{
+	text-align: center;
+	font-weight: bold;
+}
+
+#review{
+	text-align: left;
+}
+
+.future{
+	font-size:15px;
+	text-align: left;
+	color: black;
+}
+
+.contacts{
+	text-align: left;
+	font-size: 18px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5;
+}
+
