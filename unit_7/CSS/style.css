@@ -97,7 +97,12 @@ section{
     padding: 2%;
     float: left;
     width: 30%;
-    line-height: 1.5;	
+    line-height: 1.5;
+    height: 195px;
+}
+
+#second {
+		padding: 20px 0 0 0;
 }
 
 #right {
@@ -107,7 +112,7 @@ section{
     float: right;   
     width: 60%;
     line-height: 1.5;
-    height: 192px;
+    height: 195px;
 }
 
 #cafe4{
