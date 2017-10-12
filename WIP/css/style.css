@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Amatica+SC|Zilla+Slab+Highlight');
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Maven+Pro:700');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px; 
+	padding: 1%;
+}
+
+nav {
+	text-align: right;
+	font-size: 1.7em;
+	font-family: 'Amatica SC', bold;
+	text-transform: uppercase;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+}
+
+nav a {
+	text-decoration: none;
+	color: #7F6B63;
+	font-weight: 700;
+}
+
+.nav {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.nav:hover {
+	background-color: #FFD7C8;
+}
+
+.headersection {
+	width: 33.33%;
+	float: left;
+}
+.socialcontainer {
+	transform: translate(20%,-40%);
+}
+
+.socialcontainer li {
+    display: inline-block;
+}
+
+.sociallink {
+	width: 30px;
+	display: block;
+	float: left;
+	padding-top: 3em;
+	margin-right: 2em;
+}
+
+.sociallink svg {
+	display: block;
+	width: 100%;
+}
+
+.nav {
+	width: 15%;
+	display: block;
+	float: right;
+	padding-right: 15px;
+}
+
+.search {
+	position: relative;
+}
+
+#searchcontainer {
+	position: relative;
+	transform: translate(0%,160%);
+	columns: white;
+}
+
+#slogan{
+	font-size: 3em;
+	font-style: italic;
+	font-family: 'Maven Pro', sans-serif;
+	color: #d32323;
+	font-weight: bold;
+	text-align: center;
+}
+
+#where{
+	text-align: center;
+	padding: 1em 0 1em 0;
+}
+
+#question{
+	color: white;
+}
+
+#title{
+	text-align: center;
+  	font-family: 'Maven Pro', sans-serif;
+  	font-size: 3em;
+  	color: black;
+}
+
+hr {
+	width: 300px;	
+	color: black;
+	margin:0 auto;
+}
+
+input[type=text] {
+    border: 5px solid white;
+    opacity: 0.7;
+   	border-radius: 4px;
+   	text-align: center;
+    top: 0;
+    width: 20%;
+    font-size: .5em;
+    height: 3em;
+}
+
+input[type=submit] {
+    width: 10%;
+    border: 1px solid white;;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: .5em;
+    height: 3em;
+}
+
+#hero {	
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0)),url(images/coffee-banner.jpg) no-repeat
+	center center;
+	font-family: 'Amatica SC', bold;
+	font-size: 2em;
+	height: 35vw;
+	position: relative;
+	background-size:cover;
+	background-position: top;
+}
+
+#hero h3{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 2.6%;
+    float: left;
+    width: 40%;
+    line-height: 1.5;
+    height: 15em;
+}
+
+#second {
+		padding: 20px 0 0 0;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 2.6%;
+    float: right;   
+    width: 60%;
+    line-height: 1.5;
+    height: 15em;
+}
+
+#cafe4{
+	text-decoration:  underline;
+	text-align: center;
+}
+
+#recent1{
+	text-align: center;
+	font-weight: bold;
+}
+
+#recent2{
+	text-align: center;
+	font-weight: bold;
+}
+
+#review{
+	text-align: left;
+}
+
+#hero img{
+	position: absolute;
+		top: 70%;
+		left: 55%;
+}
+
+p {
+	color: initial;
+}
+
+ul {
+	padding: 0.5em;
+	margin: 1em;
+	padding: 0;
+}
+
+article {
+	padding: 1.5em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	font-size: 0;
+	display: block;
+	clear: both;
+	content: "";
+    height: 0;
+}
+
+a {
+	margin: 0 auto;
+}
+
+footer {
+    padding: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5;
+}
+
+
+@media screen and (max-width: 1024px) {
+	body {
+		font-size: 14px;
+	}
+
+	.nav {
+		background-color: #7F6B63;
+		color: #FFD7C8;
+		border-radius: 7px;
+		border: 1px solid white;
+		display: block;
+		text-align: center; 
+		margin: 0;
+	}
+
+	#hero h3{
+	top: 15%;
+	}
+
+	#hero {	
+	height: 45vw;
+	}
+
+	#searchcontainer {
+	transform: translate(0%,65%);
+	}
+
+	input[type=text] {
+    height: 4em; 
+    width: 25%;
+	}
+
+	input[type=submit] {
+    height: 4em;
+	}
+
+	.sociallink {
+	padding-top: 6em;
+	margin-right: 1em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.headersection {
+	width: 100%;
+	}
+
+	.socialcontainer {
+	display: none;
+	}
+
+	.nav {
+		float: none;
+		width: 100%;
+		font-size: 20px;
+	}
+
+	#hero {
+		float: none;
+		height: 60vw;
+	}
+
+	#left{
+		width: 100%;
+		padding: 8%;
+		height: 18em;
+	}
+
+	#right{
+		width: 100%;
+		padding: 8%;
+		height: 18em;
+	}
+
+	#searchcontainer {
+	transform: translate(0%,25%);
+	}
+
+	input[type=text] {
+    width: 48%;
+	}
+
+	input[type=submit] {
+	width: 20%;
+	}
+
+	#slogan {
+	font-size: 2.3em;
+	}
+
+	#title {
+	font-size: 2.3em;
+	}
+
+}
+
+
