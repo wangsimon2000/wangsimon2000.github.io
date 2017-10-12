@@ -299,8 +299,13 @@ footer {
 	#hero {
 		float: none;
 	}
-	.herotext {
-		display: none;
+
+	.left{
+		width: 100%;
+	}
+
+	.right{
+		width: 100%;
 	}
 }
 
