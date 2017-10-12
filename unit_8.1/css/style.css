@@ -287,9 +287,6 @@ footer {
 	display: none;
 	}
 
-.navcontainer {
-	display: none;
-}
 	.nav {
 		float: none;
 		width: 100%;
@@ -298,19 +295,42 @@ footer {
 
 	#hero {
 		float: none;
+		height: 55vw;
+	}
 	}
 
 	#left{
 		width: 100%;
+		padding: 8%;
+		height: 20em;
 	}
 
 	#right{
 		width: 100%;
+		padding: 8%;
+		height: 20em;
+	}
+
+	#searchcontainer {
+	transform: translate(0%,25%);
 	}
 
 	input[type=text] {
-    width: 35%;
+    width: 45%;
 	}
+
+	input[type=submit] {
+	width: 20%;
+	}
+
+	#slogan {
+	font-size: 2.3em;
+	}
+
+	#title {
+	font-size: 2.3em;
+	}
+
 }
 
 
